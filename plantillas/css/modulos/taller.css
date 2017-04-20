@@ -1,0 +1,116 @@
+section.taller{
+	margin-top: 25px; 
+}
+section.taller div.contenido{
+	background-color: white;
+	padding: 5px;
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.3);
+}
+section.taller div.contenido > h1{
+	margin: 30px 0px;
+	line-height: 100%;
+	text-transform: uppercase;
+	font-family: 'BebasNeue-Book';
+	font-size: 33px;
+	color: rgba(119,208,219,1);
+	text-align: center;
+}
+section.taller div.contenido > h1 > span{
+	color: rgba(211,211,211,1);
+}
+section.taller div.contenido article{
+	border-top: 1px solid rgba(103,189,199,0.5);
+	border-left: 1px solid rgba(103,189,199,0.5);
+	margin: 20px;
+	border-radius: 0px 0px 80px 0px;
+	transition: 0.3s all ease;
+	box-shadow: 0px 2px 3px rgba(0,0,0,0.2);
+	display: flex;
+	align-items: stretch;
+	flex-direction: column;
+	overflow: hidden;
+}
+section.taller div.contenido article figure{
+	position: relative;
+	margin: 0px -15px;
+	overflow: hidden;
+}
+section.taller div.contenido article figure img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+section.taller div.contenido article figure:hover div.sombra{
+	background-color: rgba(103,189,199,1);
+}
+section.taller div.contenido article figure div.sombra{
+	display: flex;
+	align-items: center;
+	position: absolute;
+	padding: 30px;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	z-index: 2;
+	background-color: rgba(103,189,199,0);
+	transition: 0.4s ease-in all;
+}
+section.taller div.contenido article figure div.sombra p{
+	line-height: 135%;
+	color: white;
+	text-align: center;
+}
+section.taller div.contenido article .descripcion{
+	display: flex;
+	padding: 15px;
+	background-color: beige;
+	flex-direction: column;
+	justify-content: center;
+}
+section.taller div.contenido article .descripcion h2{
+	margin: 0px 0px 5px;
+	line-height: 100%;
+	text-transform: uppercase;
+	font-family: 'BebasNeue-Light';
+	font-size: 23px;
+	color: rgba(91,167,176,0.9);
+	text-align: center;
+}
+section.taller div.contenido article .descripcion p{
+	color: rgba(131,94,86,1);
+	text-align: center;
+}
+section.taller div.contenido article .descripcion a{
+	max-width: 190px;
+	text-align: center;
+	padding: 6px;
+	margin: 5px auto 0px;
+	display: block;
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Roboto-Regular_0';
+	background-color: rgba(103,189,199,0.9);
+	transition: 0.3s all ease;
+}
+section.taller div.contenido article .descripcion a:hover{
+	background-color: rgba(91,167,176,0.9);
+}
+/* Responsive Design */
+@media(min-width: 420px){
+}
+@media(min-width: 498px){
+}
+@media(min-width: 598px){
+}
+@media(min-width: 768px){
+	section.taller div.contenido article{
+		flex-direction: row;
+	}
+}
+@media(min-width: 992px){
+}
+@media(min-width: 1200px){
+}
+@media(min-width: 1400px){
+}

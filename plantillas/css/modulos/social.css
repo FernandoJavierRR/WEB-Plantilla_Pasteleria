@@ -1,0 +1,37 @@
+section.social{
+	margin-top: 25px;
+}
+section.social div.contenido{
+	padding: 20px;
+	border: 2px solid white;
+	border-radius: 0px 0px 80px 0px;
+}
+section.social div.contenido article img{
+	margin: 0px auto;
+	display: block; 
+	width: 85px;
+}
+section.social div.contenido article p{
+	font-family: 'BebasNeue-Book';
+	color: rgba(100,100,100,1);
+	font-size: 27px;
+	text-align: center;
+	line-height: 120%;
+	margin: 20px auto 20px;
+	width: 60%;
+	text-transform: uppercase;
+}
+section.social div.contenido article div{
+	text-align: center;
+}
+section.social div.contenido article div a{	
+	text-decoration: none;
+	font-size: 13px;
+	font-family: 'Lato-MediumItalic';
+	color: rgba(100,100,100,1);
+}
+section.social div.contenido article div a span{
+	color: rgba(100,100,100,1);
+	margin: 3px;
+	font-size: 19px; 
+}

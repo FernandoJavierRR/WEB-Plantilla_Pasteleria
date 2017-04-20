@@ -1,0 +1,72 @@
+@font-face{
+	font-family: 'AmaticSC-Regular';
+	src: url(../../../recursos/fuentes/AmaticSC-Regular.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal; 
+}
+@font-face{
+	font-family: 'alpha_echo';
+	src: url(../../../recursos/fuentes/alpha_echo.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal; 
+}
+@font-face{
+	font-family: 'Action_Man_Shaded';
+	src: url(../../../recursos/fuentes/Action_Man_Shaded.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal; 
+}
+@font-face{
+	font-family: 'Roboto-Regular_0';
+	src: url(../../../recursos/fuentes/Roboto-Regular_0.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal; 
+}
+@font-face{
+	font-family: 'DroidSans';
+	src: url(../../../recursos/fuentes/DroidSans.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal; 
+}
+@font-face{
+	font-family: 'DroidSans-Bold';
+	src: url(../../../recursos/fuentes/DroidSans-Bold.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal; 
+}
+@font-face{
+	font-family: 'BebasNeue-Bold';
+	src: url(../../../recursos/fuentes/BebasNeue-Bold.otf) format('opentype');
+	font-weight: normal;
+	font-style: normal; 
+}
+@font-face{
+	font-family: 'BebasNeue-Book';
+	src: url(../../../recursos/fuentes/BebasNeue-Book.otf) format('opentype');
+	font-weight: normal;
+	font-style: normal; 
+}
+@font-face{
+	font-family: 'BebasNeue-Light';
+	src: url(../../../recursos/fuentes/BebasNeue-Light.otf) format('opentype');
+	font-weight: normal;
+	font-style: normal; 
+}
+@font-face{
+	font-family: 'Lato-MediumItalic';
+	src: url(../../../recursos/fuentes/Lato-MediumItalic.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal; 
+}
+@font-face{
+	font-family: 'pristina';
+	src: url(../../../recursos/fuentes/pristina.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal; 
+}
+@font-face{
+	font-family: 'OstrichSans-Black';
+	src: url(../../../recursos/fuentes/OstrichSans-Black.otf) format('opentype');
+	font-weight: normal;
+	font-style: normal; 
+}

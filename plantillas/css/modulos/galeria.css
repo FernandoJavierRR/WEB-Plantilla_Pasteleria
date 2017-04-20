@@ -1,0 +1,70 @@
+section.galeria{
+	position: static;
+}
+section.galeria div.contenido{
+	position: relative;
+	margin: 15px 0px 0px;
+	padding: 3px;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.3);
+}
+section.galeria div.contenido figure{
+	padding: 3px;	
+	overflow: hidden;
+}
+section.galeria div.contenido figure div.marco{
+	position: relative;
+	overflow: hidden;
+}
+section.galeria div.contenido figure div.marco div.sombra{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+	font-size: 13px;
+	padding: 15px;
+	cursor: pointer;
+	transform: translateY(-100%);
+	transition: 0.7s all ease;
+}
+section.galeria div.contenido figure div.marco div.sombra span{
+	position: relative;
+	font-size: 17px;
+	line-height: 100%;
+}
+section.galeria div.contenido figure div.marco div.sombra:hover{
+	background-color: #99e3ec;
+	color: rgba(0,0,0,0.5);
+}
+section.galeria div.contenido figure:hover div.marco div.sombra{
+	transform: translateY(0%);
+}
+section.galeria div.contenido figure img{
+	display: block;
+	width: 100%;
+}
+section.galeria div.contenido figure figcaption{
+	position: relative;
+	padding: 25px 0px 15px;
+}
+section.galeria div.contenido figure figcaption > span{
+	position: absolute;
+	top: -20px;
+	display: block;
+	padding: 5px 10px;
+	color: rgba(255,255,255,1);
+}
+section.galeria div.contenido figure figcaption > span.nuevo{
+	background-color: rgba(255,205,18,1);
+}
+section.galeria div.contenido figure figcaption > span.oferta{
+	background-color: rgba(2,151,178,1);
+}
+section.galeria div.contenido figure figcaption p{
+	margin-left: 10px;
+	font-size: 13px;
+	color: rgba(136,127,122,1);
+}

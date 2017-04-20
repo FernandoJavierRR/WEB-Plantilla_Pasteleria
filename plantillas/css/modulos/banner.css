@@ -1,0 +1,103 @@
+section.banner div.contenido{
+	margin: 10px auto 0px;
+	position: relative;
+	overflow: hidden;
+	border: 6px solid rgba(255,255,255,1);
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.3);
+	min-height: 270px;
+}
+section.banner div.contenido .carrusel{
+	width: 400%;
+	height: 100%;
+	min-height: 270px;
+	display: flex;
+}
+section.banner div.contenido .carrusel figure img{
+	width: 100%;
+	height: 100%;
+}
+/* Botones de direccion */
+section.banner div.contenido .boton{
+	position: absolute;
+	color: rgba(147,203,202,1);
+	height: 150px;
+	background-color: white;
+	top: 50%;
+	width: 36px;
+	box-shadow: 0px 2px 2px rgba(0,0,0,0);
+	cursor: pointer;
+	transition: 0.3s all ease;
+}
+section.banner div.contenido .boton:hover{
+	background-color: rgba(147,203,202,1);
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.4);
+	color: white;
+}
+section.banner div.contenido .boton:hover span{
+	margin: 0px auto;
+}
+section.banner div.contenido .boton span{
+	display: block;
+	width: 32px;
+	height: 32px;
+	position: relative;
+	transform: translateY(-50%);
+	top: 50%;
+	font-size: 28px;
+}
+section.banner div.contenido .boton.left{
+	left: 0px;
+	border-radius: 0px 5px 5px 0px;
+	transform: translate(-85%,-50%);
+}
+section.banner div.contenido:hover .boton.left{
+	transform: translate(0%,-50%);
+}
+section.banner div.contenido .boton.left span{
+	margin-right: 6px;
+}
+section.banner div.contenido .boton.right{
+	right: 0px;
+	border-radius: 5px 0px 0px 5px;
+	transform: translate(85%,-50%);
+}
+section.banner div.contenido:hover .boton.right{
+	transform: translate(0%,-50%);
+}
+section.banner div.contenido .boton.right span{
+	margin-left: 6px;
+}
+/* Controles */
+section.banner div.contenido ul.controles{
+	opacity: 0;
+	position: absolute;
+	bottom: 15px;
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	width: 100%;
+	transition: 0.3s all ease;
+}
+section.banner div.contenido:hover ul.controles{
+	opacity: 1;
+}
+section.banner div.contenido ul.controles li{
+	background-color: white;
+	border-radius: 50%;
+	width: 20px;
+	margin: 5px;
+	height: 20px;
+	box-shadow: 0px 2px 2px rgba(0,0,0,0);
+	text-align: center; 
+	cursor: pointer;
+	color: rgba(0,0,0,0.6);
+}
+section.banner div.contenido ul.controles li:hover{
+	background-color: DarkGrey;
+	color: rgba(0,0,0,0.6);
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.4);
+}
+section.banner div.contenido ul.controles li.active{
+	background-color: rgba(147,203,202,1);
+	color: white;
+}

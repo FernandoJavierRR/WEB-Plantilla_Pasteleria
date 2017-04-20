@@ -1,0 +1,20 @@
+footer.footer{
+	margin: 25px auto;
+	color: black;
+}
+footer.footer p{
+	color: rgba(100,100,100,1);
+	font-size: 13px;
+	text-align: center;
+}
+footer.footer p a{
+	display: inline-block;
+	padding: 3px 5px;
+	border: 1px solid rgba(0,108,255,1);
+	line-height: 100%;
+	text-decoration: none;
+	font-family: 'BebasNeue-Book';
+	color: rgba(0,108,255,1);
+	font-size: 18px;
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.3);
+}

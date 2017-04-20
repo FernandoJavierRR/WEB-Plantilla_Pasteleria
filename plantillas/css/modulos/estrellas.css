@@ -1,0 +1,10 @@
+section.estrellas{
+	margin-top: 20px;
+}
+section.estrellas div.contenido figure{
+	overflow: hidden;
+	padding: 3px !important;
+}
+section.estrellas div.contenido figure img{
+	width: 100%;
+}
