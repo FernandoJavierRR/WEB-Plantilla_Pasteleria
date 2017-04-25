@@ -3,8 +3,16 @@ section.social{
 }
 section.social div.contenido{
 	padding: 20px;
+	background-image: url("../../../recursos/texturas/textura7.png");
 	border: 2px solid white;
 	border-radius: 0px 0px 80px 0px;
+	transition: 0.7s;
+}
+section.social div.contenido:hover{
+	background-image: url("../../../recursos/texturas/textura8.png");
+}
+section.social div.contenido article{
+	padding: 15px 0px;
 }
 section.social div.contenido article img{
 	margin: 0px auto;

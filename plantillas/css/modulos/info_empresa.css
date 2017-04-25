@@ -2,13 +2,12 @@ section.info_empresa{
 	margin-top: 25px;
 }
 section.info_empresa div.contenido{
-	padding: 5px;
+	padding: 0px;
 	background-color: white;
 	box-shadow: 0px 2px 2px rgba(0,0,0,0.3);
-	padding-bottom: 25px;
 }
 section.info_empresa div.contenido > h1{
-	margin: 30px 0px;
+	padding: 30px 0px 10px;
 	line-height: 100%;
 	text-transform: uppercase;
 	font-family: 'BebasNeue-Book';
@@ -24,6 +23,13 @@ section.info_empresa div.contenido h2{
 }
 section.info_empresa div.contenido > h1 > span{
 	color: rgba(211,211,211,1);
+}
+section.info_empresa div.contenido article{
+	padding: 25px 10px 20px;
+	transition: 0.7s;
+}
+section.info_empresa div.contenido article:hover{
+	background-color: rgba(100,100,100,0.1);
 }
 section.info_empresa div.contenido > p{
 	display: block;
@@ -43,12 +49,11 @@ section.info_empresa div.contenido figure{
 section.info_empresa div.contenido figure img{
 	display: block;
 	width: 100%;
-	margin-bottom: 5px;
 	border-radius: 15px;
 	height: 100%;
 	max-height: 300px;
 }
-section.info_empresa div.contenido figure img.hover{
+section.info_empresa div.contenido article figure img.hover{
 	position: absolute;
 	opacity: 0;
 	top: 0px;
@@ -56,7 +61,7 @@ section.info_empresa div.contenido figure img.hover{
 	height: 100%;
 	transition: 0.7s all ease;
 }
-section.info_empresa div.contenido figure:hover img.hover{
+section.info_empresa div.contenido article:hover figure img.hover{
 	opacity: 1;
 }
 section.info_empresa div.contenido p.texto{
@@ -67,7 +72,7 @@ section.info_empresa div.contenido p.texto{
 	color: rgba(131,94,86,0.9);
 }
 section.info_empresa div.contenido hr{
-	margin: 20px 20px 25px;
+	margin: 0px 20px 0px;
 	border: 0px solid transparent;
 	border-top: 1px solid rgba(230,230,230,1);
 }
