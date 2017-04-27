@@ -63,7 +63,7 @@ section.contacto div.contenido figure.visit img.visit.hover{
 	opacity: 0;
 	transition: 0.7s ease all;
 }
-section.contacto div.contenido figure.visit:hover img.visit.hover{
+section.contacto div.contenido article:hover figure.visit img.visit.hover{
 	opacity: 1
 }
 section.contacto div.contenido p{

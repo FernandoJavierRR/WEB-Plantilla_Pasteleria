@@ -1,5 +1,5 @@
 section.banner div.contenido{
-	margin: 10px auto 0px;
+	margin: 15px auto 0px;
 	position: relative;
 	overflow: hidden;
 	border: 6px solid rgba(255,255,255,1);
@@ -30,7 +30,7 @@ section.banner div.contenido .boton{
 }
 section.banner div.contenido .boton:hover{
 	background-color: rgba(147,203,202,1);
-	box-shadow: 0px 2px 2px rgba(0,0,0,0.4);
+	box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
 	color: white;
 }
 section.banner div.contenido .boton:hover span{
@@ -84,10 +84,13 @@ section.banner div.contenido:hover ul.controles{
 section.banner div.contenido ul.controles li{
 	background-color: white;
 	border-radius: 50%;
-	width: 20px;
+	width: 22px;
 	margin: 5px;
-	height: 20px;
-	box-shadow: 0px 2px 2px rgba(0,0,0,0);
+	line-height: 22px;
+	height: 22px;
+	font-weight: 700;
+	font-size: 12px;
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.3);
 	text-align: center; 
 	cursor: pointer;
 	color: rgba(0,0,0,0.6);
